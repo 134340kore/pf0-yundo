@@ -1,0 +1,59 @@
+/* 공통 */
+.wrap{
+   max-width: 1250px;
+   margin: 0 auto;
+}
+.flex{
+   display: flex;
+}
+.grid{
+   display: grid;
+}
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+body{
+   font-family: 'Iropke Batang', serif;
+}
+.vh100{
+   height: 100vh;
+   box-sizing: border-box;
+   min-height: 800px;
+ }
+ .h100{
+   height: 100%;
+ }
+ .padding135{
+   padding: 135px 0;
+ }
+.slick-dotted.slick-slider{
+  margin-bottom: 0 !important;
+}
+/* 폰트 */
+.h1{
+   font-size: 52px;
+}
+.h2{
+   font-size: 48px;
+}
+.h3{
+   font-size: 36px;
+}
+.h4{
+   font-size: 30px;
+}
+.h5{
+   font-size: 28px;
+}
+.h6{
+   font-size: 20px;
+}
+.p{
+   font-size: 15px;
+}
+.f32{
+   font-size: 32px;
+   font-weight: bold;
+}
+.f18{
+   font-size: 18px;
+}

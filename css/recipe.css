@@ -1,0 +1,57 @@
+section#recipe{
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+section#recipe .wrap {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+section#recipe .wrap h1 {
+  
+  line-height: 3;
+}
+section#recipe .wrap .cook {
+  
+  flex-direction: row;
+  gap: 10px;
+}
+section#recipe .wrap .cook a {
+  
+}
+section#recipe .wrap .cook a span.menu {
+  
+}
+section#recipe .wrap .cook a span.menu img {
+  
+  width: 100%;
+}
+section#recipe .wrap .cook a span.menu div.textbox {
+  
+  text-align: center;
+  line-height: 1.6;
+  background-color: white;
+  padding: 30px 0;
+}
+section#recipe .wrap .cook a span.menu div.textbox p {
+  
+  color: #666;
+}
+section#recipe .wrap .cook a span.menu img div.textbox h6 {
+  
+}
+section#recipe button {
+  margin: 0 auto;
+  padding: 20px 50px;
+  background-color: #276506;
+}
+section#recipe button a {
+  color: white;
+  font-size: 20px;
+}
+section#recipe button a span {
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+section#video {
+}
+section#video div.videobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  color: #094516;
+}
+section#video div.videobox h2 {
+  
+}
+section#video div.videobox h1 {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+section#video div.videobox div.videovisual {
+  
+  width: 100%;
+}
+section#video div.videobox div.videovisual iframe {
+  
+  width: 100%;
+}

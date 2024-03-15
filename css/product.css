@@ -1,0 +1,70 @@
+section#product {
+
+}
+section#product div.youdo { 
+  position: relative;
+}
+section#product div.youdo img {
+  
+}
+section#product div.youdo .text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+section#product div.youdo .text h4 {
+  
+}
+section#product div.youdo .text p {
+  
+}
+section#product div.youdo .text a {
+}
+section#product div.youdo .text.textS1 {
+  color: #dc261c;
+}
+section#product div.youdo .text.textS2 {
+  color: #094516;
+}
+section#product div.youdo .text.textS3 {
+  color: #ec6400;  
+}
+section#product div.youdo .text.textS4 {
+  color: #c08846;  
+}
+section#product div.youdo .text a div.buy::before{
+  
+  content: "";
+  background-image: url(../img/icon_cart.png);
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+section#product div.youdo .text a div.buy {
+  padding: 5px 40px;
+  color: white;
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+}
+section#product div.youdo .text a div.buy.buyS1 {
+  background-color: #680805;
+}
+section#product div.youdo .text a div.buy.buyS2 {
+  background-color: #286507;
+}
+section#product div.youdo .text a div.buy.buyS3 {
+  background-color: #b94e00;
+}
+section#product div.youdo .text a div.buy.buyS4 {
+  background-color: #ca6b00;
+}
+section#product div.youdo .text a div.buy>p {
+  
+}

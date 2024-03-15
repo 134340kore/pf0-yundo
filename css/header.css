@@ -1,0 +1,71 @@
+header {
+  border-bottom: 2px solid #90b74a;
+  font-family: sans-serif;
+ 
+  font-weight: bold;
+}
+header div {
+  grid-template-columns: auto 20px auto auto;
+  grid-template-rows: auto auto;
+  height: 114px;
+}
+header div h1 {
+  grid-row: 1 / span 2;
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header div h1 a {
+  
+}
+header div ul.sns {
+  grid-row: 1;
+  grid-column: 4;
+  justify-content: end;
+  gap: 10px;
+  align-items: end;
+}
+header div ul.sns li {
+  
+}
+header div ul.sns li a {
+  font-size: 0;
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-color: #ccc;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position-x: center;
+  background-position-y: center;
+}
+header div ul.sns li:nth-child(1) a {
+  background-image: url(../img/sns/sns_nb.png);  
+}
+header div ul.sns li:nth-child(2) a {
+  background-image: url(../img/sns/sns_fb.png);
+}
+header div ul.sns li:nth-child(3) a {
+  background-image: url(../img/sns/sns_in.png);
+}
+header div ul.sns li:nth-child(4) a {
+  background-image: url(../img/sns/sns_yt.png);
+}
+header div ul.sns li:nth-child(5) a {
+  background-image: url(../img/sns/sns_sp.png);
+}
+header div ul.gnb {
+  grid-row: 2;
+  grid-column: 3 / span 2;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header div ul.gnb li {
+  
+}
+header div ul.gnb li a {
+  line-height: 59px;
+  display: block;
+}
